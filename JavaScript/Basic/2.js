@@ -1,3 +1,5 @@
+// 삼각형 판별하기
+
 const solution = (a, b, c) => {
   let result = "YES", max;
   let tot = a + b + c;
