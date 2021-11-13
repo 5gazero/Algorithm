@@ -1,6 +1,6 @@
 // 세 수 중 최소값
 
-function solution(a, b, c){
+const solution = (a, b, c) => {
   let result;
   if (a > b) result = b;
   else result = a;
@@ -8,5 +8,3 @@ function solution(a, b, c){
   else result = result;
   return result;
 }
-
-console.log(solution(2, 5, 1));
